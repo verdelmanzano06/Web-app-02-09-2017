@@ -13,17 +13,17 @@
       </head>
       <body>
         <h1>$title</h1>
-       END;
+END;
       }
    
-   function uo_print_footer($date) {
+   function ui_print_footer($date) {
     $date = htmlentities($date);
     echo <<<END
     <div class="footer">
       <div class="date">$date</div>
       <div class="company">Any Co.</div>
     </div>
-   END;
+END;
    }
   
   ?>
